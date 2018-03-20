@@ -20,7 +20,7 @@ class Application
       end
     elsif req.path.match(/add/)
       add_item = req.params["item"]
-      
+      resp.write add_item(item)
 
 
     elsif req.path.match(/search/)
