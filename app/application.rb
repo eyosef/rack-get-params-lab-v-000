@@ -40,6 +40,8 @@ class Application
     end
   end
 
+  def add_item(item)
+    @@items
 
 
 end
