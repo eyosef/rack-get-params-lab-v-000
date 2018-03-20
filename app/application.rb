@@ -41,5 +41,8 @@ class Application
   end
 
   def add_item(item)
+    if @@items.include?(item)
+      @@cart << item
   end
+
 end
