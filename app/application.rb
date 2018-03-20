@@ -19,7 +19,8 @@ class Application
         resp.write "#{item}\n"
       end
     elsif req.path.match(/add/)
-      
+      @@items.each do |item|
+      end
 
 
     elsif req.path.match(/search/)
